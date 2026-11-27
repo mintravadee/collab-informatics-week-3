@@ -9,7 +9,20 @@
 
   <!-- TODO 1: Add patient P-102 with status="stable". -->
   <!-- Include name, ward, condition, and one observation. -->
+  <patient id="P-102" status="critical">
+    <name>Mekaine harrison</name>
+    <ward>Emergency</ward>
+    <condition>Fever and tachycardia</condition>
+    <observation code="HR" unit="bpm">118</observation>
+  </patient>
 
   <!-- TODO 2: In one condition, use &amp; to display an ampersand safely. -->
+
+  <patient id="P-102" status="stable">
+    <name>Melaine harrison</name>
+    <ward>General</ward>
+    <condition>Mild score throat &amp; headache</condition>
+    <observation code="BP" unit="mmHg">118</observation>
+  </patient>
 </clinic>
 

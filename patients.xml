@@ -21,7 +21,7 @@
   <patient id="P-102" status="stable">
     <name>Melaine harrison</name>
     <ward>General</ward>
-    <condition>Mild score throat & headache</condition>
+    <condition>Mild score throat &amp; headache</condition>
     <observation code="BP" unit="mmHg">118</observation>
   </patient>
 </clinic>
